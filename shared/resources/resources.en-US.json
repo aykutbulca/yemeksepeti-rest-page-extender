@@ -1,0 +1,9 @@
+{
+    "orderDetailLink": "/order/info",
+    "previousOrders": "Previous Orders",
+    "orderDate": "Order Date",
+    "total": "Total",
+    "speed": "Speed",
+    "service": "Service",
+    "flavour": "Flavour"
+}

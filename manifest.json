@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "author": "Aykut Bulca",
+  "name": "Yemeksepeti - Restoran Siparişleri",
+  "short_name": "YS.RS",
+  "description": "Bir restorandan daha önce verdiğiniz siparişleri ilgili restoranın kendi sayfasında görüntüleyin.",
+  "homepage_url": "https://github.com/aykutbulca/yemeksepeti-chrome-ext",
+  "version": "0.1.0",
+  "background": {
+    "scripts": [
+      "event.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.yemeksepeti.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "cookies",
+    "storage",
+    "*://www.yemeksepeti.com/*"
+  ]
+}
