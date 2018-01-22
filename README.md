@@ -1,4 +1,4 @@
-# yemeksepeti-chrome-ext
+# Yemeksepeti Restaurant Page Extender
 Display your previous orders from a specific restaurant, in the restaurant's Yemeksepeti page.
 
 ## Installation
